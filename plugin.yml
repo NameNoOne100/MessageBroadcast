@@ -1,0 +1,13 @@
+name: MessageBroadcast
+version: 1.0.0
+author: applqpak/NameNoOne100
+api: [1.0.0]
+main: MessageBroadcast\Main
+commands:
+  broadcast:
+    description: Broadcast A Message.
+    usage: "/broadcast <message>"
+    permission: bc.command
+permissions:
+  bc.command:
+    default: op
