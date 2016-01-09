@@ -18,7 +18,7 @@
 
     public function onCommand(CommandSender $sender, Command $cmd, $label, array $args) {
 
-      if($cmd->getName()) === "broadcast") {
+      if($cmd->getName() === "broadcast") {
 
         $msg = implode(" ", $args);
         $this->getServer()->broadcastMessage($msg);
