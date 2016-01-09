@@ -8,6 +8,7 @@ commands:
     description: Broadcast A Message.
     usage: "/broadcast <message>"
     permission: bc.command
+    alias: [bc, b]
 permissions:
   bc.command:
     default: op
