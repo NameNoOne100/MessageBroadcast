@@ -22,3 +22,15 @@
 
         $msg = implode(" ", $args);
         $this->getServer()->broadcastMessage($msg);
+
+        return true;
+
+      }
+
+      return false;
+
+    }
+
+  }
+
+?>
